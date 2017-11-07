@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stranger things</title>
+  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="_Css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="_Css/style.css">
+
+</head>
+<body>
+
+
+<div class="modal-wrap">
+  <div class="modal-header"><span class="is-active"></span><span></span><span></span></div>
+  <div class="modal-bodies">
+    <div class="modal-body modal-body-step-1 is-showing">
+      <div class="title">Paso 1</div>
+      <div class="description">Hola, necesitamos que nos digas unas<br>
+      cuantas cosas.</div>
+
+      <form method="post" action="index.html" onsubmit="return validate()" name="vform">
+
+        <input type="text" placeholder="Nombre" name="Nombre" class="textInput" />
+
+        <div id="Nombre_error" class="val_error"></div>
+
+        <input type="Email" placeholder="Email" name="Email" class="textInput" />
+
+        <div id="Email_error" class="val_error"></div>
+
+        <div class="text-center">
+
+          
+            
+            <input type="submit" value="Registrate" class="button1" name="Registrate">
+
+        
+
+        </div>
+
+     
+
+    </div>
+
+    <div class="modal-body modal-body-step-2">
+
+      <div class="title">Paso 2</div>
+
+      <div class="description">Vamos a la mitad.</div>
+
+      <!-- <form method="post" action="index.html" onsubmit="return validate()" name="vform"> -->
+
+        <label>
+
+          <input type="text" name="Dirección" placeholder="Dirección" class="textInput" />
+
+          <div id="Dirección_error" class="val_error"></div>
+
+        </label>
+
+        <label>
+
+          <input type="text" name="Telefono" id="radio2" class="textInput" placeholder="Telefono"/>
+
+          <div id="Telefono_error" class="val_error"></div>
+
+        </label>
+
+        <div class="text-center fade-in">
+
+          <div class="button1">Next</div>
+
+        </div>
+
+      <!-- </form> -->
+
+    </div>
+
+    <div class="modal-body modal-body-step-3">
+
+      <div class="title">Paso 3</div>
+
+      <div class="description">Cuales son tus expectativas<br>
+      sobre nuestra app?</div>
+
+      <input type="text" name="opinion">
+
+      <div class="text-center">
+
+        
+          
+          <input type="submit" value="Enviar" name="Registrate" class="button1">
+           </form>
+
+        
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="text-center">
+
+  <div class="rerun-button">ReRun</div>
+
+</div>
+
+
+<footer class="footer_c">
+       <center> <small>Copyright 2017, FindMed &reg;</small> </center>
+   </footer>
+
+
+
+<script type="text/javascript" src="_Script/jquery.min.js"></script>
+<script type="text/javascript" src="_Script/popper.min.js"></script>
+<script type="text/javascript" src="_Script/bootstrap.js"></script>
+<script type="text/javascript" src="_Script/script.js"></script>
+
+</body>
+</html>
